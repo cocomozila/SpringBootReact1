@@ -28,7 +28,6 @@ return (
         {posts.map((post, index)=>(
           <li key={index}>
             <div>{post.title}</div>
-            <div>{post.body}</div>
             <hr/>
           </li>
         ))}
